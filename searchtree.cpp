@@ -161,6 +161,11 @@ int main()
                 obj.preorder(obj.root);
                 break;
             }
+                        case '4':
+            {
+                obj.postorder(obj.root);
+                break;
+            }
+            }
         }
     }
-}
